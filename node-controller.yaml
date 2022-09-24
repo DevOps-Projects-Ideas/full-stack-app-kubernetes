@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: full-stack
-        image: jouman/node-image:full-stack
+        image: hammedbabatunde/node-image:full-stack
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
